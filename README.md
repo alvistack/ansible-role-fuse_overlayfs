@@ -4,6 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-fuse_overlayfs.svg)](https://github.com/alvistack/ansible-role-fuse_overlayfs/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-fuse_overlayfs.svg)](https://github.com/alvistack/ansible-role-fuse_overlayfs/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.fuse_overlayfs-blue.svg)](https://galaxy.ansible.com/alvistack/fuse_overlayfs)
+
 Ansible Role for FUSE Overlay Installation.
 
 ## Requirements
@@ -30,7 +31,8 @@ This role was designed for:
 
 [molecule/default/converge.yml](molecule/default/converge.yml)
 This role could simply deploy to `localhost` as below:
-molecule converge -s default
+
+    molecule converge -s default
 
 ## License
 
