@@ -19,8 +19,6 @@
   become: true
   tasks:
     - name: fuse-overlayfs --version
-      environment:
-        PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
       command: fuse-overlayfs --version
       register: result
       changed_when: result is not succeeded
