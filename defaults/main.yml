@@ -13,12 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# fuse-overlayfs release.
-fuse_overlayfs_release: "1.6"
-
-# fuse-overlayfs version.
-fuse_overlayfs_version: "{{ _fuse_overlayfs_version[fuse_overlayfs_release] }}"
-
-# fuse-overlayfs download details.
-fuse_overlayfs_download: "{{ _fuse_overlayfs_download[fuse_overlayfs_version] }}"
